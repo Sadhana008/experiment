@@ -1,0 +1,6 @@
+HTML (HyperText Markup Language) is the standard language used to create and structure web pages. 
+It defines the basic framework of a webpage by using tags to represent elements like headings, paragraphs, images, links, tables, and forms.
+HTML does not provide styling or dynamic behavior by itself; instead, it works together with CSS for design and JavaScript for interactivity. 
+The main purpose of HTML is to organize content so browsers can display it in a structured and readable way. It acts as the backbone of all websites, ensuring that text, images, and multimedia are properly arranged.
+With HTML, developers can create hyperlinks that connect different pages, forming the web’s navigation system. HTML also supports embedding videos, audio, and interactive content to make websites more engaging. 
+It is platform-independent, meaning any browser on any device can render HTML pages. Overall, HTML is essential for presenting information on the internet in a user-friendly format.
