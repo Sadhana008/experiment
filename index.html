@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Face Recognition Attendance</title>
+  <title>Face Recognition Flowchart</title>
 </head>
 <body bgcolor="#ffe6e6">
   <h2 align="center">Face Recognition Attendance System</h2>
 
-  <p><b>Start</b></p>
-  <p>→ Are you a New User?</p>
-
-  <h3>For New User:</h3>
-  <ul>
-    <li>Give your photograph</li>
-    <li>Store the face data in a folder with your name</li>
-    <li>System is now ready to recognise your face</li>
-  </ul>
-
-  <h3>For Existing User:</h3>
-  <ul>
-    <li>Recognise the face</li>
-    <li>Perform Face Recognition</li>
-    <li>Store Registration Number, Date & Time in CSV file</li>
-  </ul>
-
-  <p><b>Stop</b></p>
+  <table align="center" border="0" cellspacing="20">
+    <tr>
+      <td align="center">⬇️</td>
+    </tr>
+    <tr>
+      <td align="center"><b>START</b></td>
+    </tr>
+    <tr>
+      <td align="center">⬇️</td>
+    </tr>
+    <tr>
+      <td align="center"><b>New User?</b></td>
+    </tr>
+    <tr>
+      <td align="center">⬇️</td>
+    </tr>
+    <tr>
+      <td>
+        <b>If YES:</b>
+        <ul>
+          <li>Give Your Photograph</li>
+          <li>Store face data in folder with your name</li>
+          <li>Go to recognition</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>If NO:</b>
+        <ul>
+          <li>Recognise the face</li>
+          <li>Face Recognition</li>
+          <li>Store in CSV (Reg. No, Date, Time)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">⬇️</td>
+    </tr>
+    <tr>
+      <td align="center"><b>STOP</b></td>
+    </tr>
+  </table>
 </body>
 </html>
